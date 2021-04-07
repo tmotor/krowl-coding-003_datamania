@@ -1,4 +1,6 @@
 # KROWL コーディング課題03
+https://tmotor.github.io/krowl-coding-003_datamania/
+
 XDのデザインデータをもとにコーディングしました。
 デザインデータがPC版のデザインのみのため、レスポンシブ対応を施しました。CSSの命名規則はBEMを参考にしています。
 
