@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DataMania</title>
+  </head>
+
+  <body>
+    <!-- ↓ ヘッダー ↓ -->
+    <header class="site-header">
+      <div class="site-header__main">
+        <div class="site-header__main-inner">
+          <div id="navi-button" class="navi-button hidden-pc">
+            <span class="navi-button__line"></span>
+          </div>
+          <img
+            class="site-header__main-logo"
+            src="images/logo-datamania.png"
+            srcset="images/logo-datamania.png, images/logo-datamania@2x.png 2x"
+            alt="logo"
+          />
+          <div class="site-header__main-phrase-box">
+            <span class="site-header__main-phrase-text"
+              >データマーケティングの<br />
+              未来を作る</span
+            >
+          </div>
+          <div class="site-header__main-banner">
+            <p>今なら<br />初月無料</p>
+          </div>
+        </div>
+      </div>
+      <nav class="site-header-navi">
+        <ul class="site-header-navi__inner">
+          <li class="site-header-navi__item">
+            <a class="site-header-navi__link" href="#">最新情報</a>
+          </li>
+          <li class="site-header-navi__item">
+            <a class="site-header-navi__link" href="#">サービスの特徴</a>
+          </li>
+          <li class="site-header-navi__item">
+            <a class="site-header-navi__link" href="#">3つの強み</a>
+          </li>
+          <li class="site-header-navi__item">
+            <a class="site-header-navi__link" href="#">お客様の声</a>
+          </li>
+          <li class="site-header-navi__item">
+            <a class="site-header-navi__link" href="#">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ↑ ヘッダー ↑ -->
+    <main>
+      <!-- ↓ 最新情報 ↓ -->
+      <div class="section-outer">
+        <section class="info">
+          <div class="section-heading">
+            <h2 class="section-heading__inner">最新情報</h2>
+          </div>
+          <table class="info__list">
+            <tr class="info__row">
+              <td class="info__date">2019.08.23</td>
+              <td class="info__news-text">
+                新料金プラン「Mania 5」をリリースしました。
+              </td>
+            </tr>
+            <tr class="info__row">
+              <td class="info__date">2019.08.08</td>
+              <td class="info__news-text">
+                Android OS版のアプリケーションにおける決済機能の不具合について
+              </td>
+            </tr>
+            <tr class="info__row">
+              <td class="info__date">2019.07.14</td>
+              <td class="info__news-text">
+                関東テレビの情報番組「サックリ！」にData
+                Mania代表の石渡が出演します
+              </td>
+            </tr>
+          </table>
+          <p class="info__more-link">過去の情報を見る</p>
+        </section>
+      </div>
+      <!-- ↑ 最新情報 ↑ -->
+      <!-- ↓ サービスの特徴 ↓ -->
+      <div class="section-outer section-outer--blue">
+        <section class="features">
+          <div class="section-heading">
+            <h2 class="section-heading__inner">サービスの特長</h2>
+          </div>
+          <div class="features__inner">
+            <div class="features__container">
+              <p class="features__text">
+                DataManiaはデータマーケティングの効率を最大化するために設計されています。<br />
+                自動分析・レポート機能、ユーザー管理機能、通知機能、その他データマーケティングに必要不可欠な40の機能を、先進的で洗練されたインターフェースで利用することができます。<br />
+                満を持してリリースされたバージョン2からは、忙しいマーケターのためにスマートフォンアプリ版もリリースされました。
+              </p>
+              <div class="icons">
+                <div class="icons__group">
+                  <img
+                    class="icons__img"
+                    src="images/icon-auto_analytics.png"
+                    srcset="
+                      images/icon-auto_analytics.png,
+                      images/icon-auto_analytics@2x.png 2x
+                    "
+                    alt="自動分析機能"
+                  />
+                  <img
+                    class="icons__img"
+                    src="images/icon-time_management.png"
+                    srcset="
+                      images/icon-time_management.png,
+                      images/icon-time_management@2x.png 2x
+                    "
+                    alt="稼働管理機能"
+                  />
+                  <img
+                    class="icons__img"
+                    src="images/icon-alert.png"
+                    srcset="images/icon-alert.png, images/icon-alert@2x.png 2x"
+                    alt="アラート機能"
+                  />
+                </div>
+                <div class="icons__group">
+                  <img
+                    class="icons__img"
+                    src="images/icon-user_management.png"
+                    srcset="
+                      images/icon-user_management.png,
+                      images/icon-user_management@2x.png 2x
+                    "
+                    alt="ユーザー管理機能"
+                  />
+                  <img
+                    class="icons__img"
+                    src="images/icon-auto_reporting.png"
+                    srcset="
+                      images/icon-auto_reporting.png,
+                      images/icon-auto_reporting@2x.png 2x
+                    "
+                    alt="自動レポーティング機能"
+                  />
+                  <img
+                    class="icons__img"
+                    src="images/icon-smartphone.png"
+                    srcset="
+                      images/icon-smartphone.png,
+                      images/icon-smartphone@2x.png 2x
+                    "
+                    alt="スマホアプリ"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- ↑ サービスの特徴 ↑ -->
+      <!-- ↓ 3つの強み ↓ -->
+      <div class="section-outer">
+        <section class="strengths">
+          <div class="section-heading">
+            <h2 class="section-heading__inner">Data Maniaの3つの強み</h2>
+          </div>
+          <div class="strengths__items">
+            <div class="strengths__item">
+              <img
+                class="strengths__item-image"
+                src="images/img-usp-01.png"
+                srcset="images/img-usp-01.png, images/img-usp-01@2x.png 2x"
+                alt="データマーケティング"
+              />
+              <div class="strengths__text-container">
+                <h3 class="strengths__item-heading">
+                  1. データマーケティングの支援に特化
+                </h3>
+                <p>
+                  データ分析アプリケーションは多数ありますが、データマーケティングに特化したものはData
+                  Maniaを置いて他にありません。単なる分析機能・レポーティング機能だけでなく、当社独自調査による過去のマーケティング事例を元に、最適な施策を提案します。
+                </p>
+              </div>
+            </div>
+            <div class="strengths__item">
+              <img
+                class="strengths__item-image"
+                src="images/img-usp-02.png"
+                srcset="images/img-usp-02.png, images/img-usp-02@2x.png 2x"
+                alt="データマーケティング"
+              />
+              <div class="strengths__text-container">
+                <h3 class="strengths__item-heading">
+                  2. 稼働率99.9%の自社製サーバー
+                </h3>
+                <p>
+                  八王子と松代にそれぞれ設置された自社製のサーバーは99.9%の高稼働率を保証します。それぞれのサーバーは、相互に最適化されたアルゴリズムでデータを同期しており、万が一片方が自然災害やその他の事故で稼働できない状況になっても、サービス自体への影響は全くありません。
+                </p>
+              </div>
+            </div>
+            <div class="strengths__item">
+              <img
+                class="strengths__item-image"
+                src="images/img-usp-03.png"
+                srcset="images/img-usp-03.png, images/img-usp-03@2x.png 2x"
+                alt="データマーケティング"
+              />
+              <div class="strengths__text-container">
+                <h3 class="strengths__item-heading">
+                  3. 24時間365日対応のサポート体制
+                </h3>
+                <p>
+                  Data
+                  Maniaは先進的な機能と洗練されたインターフェースで、マーケターの企画・立案を支援します。一方、こういったツールに不慣れなお客様にも安心してお使いいただけるよう、オペレーターが24時間365日対応可能なサポート体制を構築しています。もしアプリケーションの操作でわからないシーンに遭遇しても安心です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- ↑ 3つの強み ↑ -->
+      <!-- ↓ お客様の声 ↓ -->
+      <div class="section-outer section-outer--blue">
+        <section class="customers">
+          <div class="section-heading">
+            <h2 class="section-heading__inner">お客様の声</h2>
+          </div>
+          <div class="customers__items">
+            <div class="customers__flex-item">
+              <div class="customers__item">
+                <img
+                  class="customers__item-img"
+                  src="images/photo-mr_okochi.jpg"
+                  srcset="
+                    images/photo-mr_okochi.jpg,
+                    images/photo-mr_okochi@2x.jpg 2x
+                  "
+                  alt="大河内様"
+                />
+                <p class="customers__item-name">
+                  株式会社グローバルマーケティングジャパン<br />
+                  ダイレクトソリューション2部 大河内様
+                </p>
+                <p class="customers__item-comment">
+                  Data
+                  Maniaを導入する前は、全てのデータひとつひとつ集め、それを分析し、レポートするまでを全て手作業で行っていました。
+                  この工程で膨大な時間を使ってしまい、肝心のマーケティング施策を考える時間がどんどん削られていましたが、Data
+                  Mania導入後はそういった作業を一切しなくて済むようになりました。
+                  これからもきっと我が社には欠かせないツールであり続けると確信しています。
+                </p>
+              </div>
+              <div class="customers__item">
+                <img
+                  class="customers__item-img"
+                  src="images/photo-mr_nakajima.jpg"
+                  srcset="
+                    images/photo-mr_nakajima.jpg,
+                    images/photo-mr_nakajima@2x.jpg 2x
+                  "
+                  alt="中島様"
+                />
+                <p class="customers__item-name">株式会社山月堂 中島様</p>
+                <p class="customers__item-comment">
+                  安い！速い！すごい！見事に私の求める要素三拍子が揃ったツールです。Data
+                  Maniaを使い始めてからは毎日定時で上がれるようになりました！
+                </p>
+              </div>
+            </div>
+            <div class="customers__flex-item">
+              <div class="customers__item">
+                <img
+                  class="customers__item-img"
+                  src="images/photo-ms_kagari.jpg"
+                  srcset="
+                    images/photo-ms_kagari.jpg,
+                    images/photo-ms_kagari@2x.jpg 2x
+                  "
+                  alt="篝様"
+                />
+                <p class="customers__item-name">
+                  株式会社キャトルミューティレーション<br />
+                  アカウントセールス事業部 篝様
+                </p>
+                <p class="customers__item-comment">
+                  全てのデータがひとつに集約されるので、煩わしいデータの整理をする必要が一切ありません。トライアル期間に申し込んだのですが、使い始めて30分でまさに当社が求めていたツールだと確信しました。
+                </p>
+              </div>
+              <div class="customers__item">
+                <img
+                  class="customers__item-img"
+                  src="images/photo-mr_davis.jpg"
+                  srcset="
+                    images/photo-mr_davis.jpg,
+                    images/photo-mr_davis@2x.jpg 2x
+                  "
+                  alt="Davis様"
+                />
+                <p class="customers__item-name">
+                  株式会社Greeeeed<br />
+                  コンサルティングチーム Mike Davis様
+                </p>
+                <p class="customers__item-comment">
+                  以前他のツールを使っていた時は、自分たちの使いやすい形にデータを整形するなど、結局手作業が発生してしまうケースが多かったのですが、Data
+                  Maniaは日々レポートのテンプレートが追加されているので、「こういう形でデータがみたい」というニーズに必ずマッチします。もうこれなしの頃には戻れません。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- ↑ お客様の声 ↑ -->
+      <!-- ↓ お問い合わせ ↓ -->
+      <div class="section-outer">
+        <section class="contact">
+          <div class="section-heading">
+            <h2 class="section-heading__inner">お問い合わせ</h2>
+          </div>
+          <form class="contact__forms" action="">
+            <label for="name">お名前</label><br />
+            <input
+              class="contact__form"
+              type="text"
+              name="name"
+              id="name"
+            /><br />
+            <label for="email">メールアドレス</label><br />
+            <input
+              class="contact__form"
+              type="email"
+              name="email"
+              id="email"
+            /><br />
+            <label for="type">お問い合わせ種別</label><br />
+            <select class="contact__form" name="type" id="type">
+              <option value="value1">選択肢1</option>
+              <option value="value2">選択肢2</option>
+              <option value="value3">選択肢3</option></select
+            ><br />
+            <label for="inquiry">お問い合わせ内容</label><br />
+            <textarea
+              class="contact__form-inquiry"
+              name=""
+              id="inquiry"
+            ></textarea>
+            <div class="contact__button-wrapper">
+              <button class="contact__button-submit" type="submit">送信</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <!-- ↑ お問い合わせ ↑ -->
+    <!-- ↓ フッター ↓ -->
+    <footer class="site-footer">
+      <div id="to-top" class="to-top-button"></div>
+      <nav class="site-footer__navi">
+        <ul class="site-footer__navi-container">
+          <li class="site-footer__navi-heading">企業情報</li>
+          <li><a class="site-footer__navi-item" href="#">会社概要</a></li>
+          <li><a class="site-footer__navi-item" href="#">ミッション</a></li>
+          <li><a class="site-footer__navi-item" href="#">メッセージ</a></li>
+          <li><a class="site-footer__navi-item" href="#">アクセス</a></li>
+          <li><a class="site-footer__navi-item" href="#">採用情報</a></li>
+        </ul>
+        <ul class="site-footer__navi-container">
+          <li class="site-footer__navi-heading">製品について</li>
+          <li><a class="site-footer__navi-item" href="#">Data Mania v3</a></li>
+          <li><a class="site-footer__navi-item" href="#">Artemis Score</a></li>
+          <li><a class="site-footer__navi-item" href="#">Aegis Engine</a></li>
+        </ul>
+        <ul class="site-footer__navi-container">
+          <li class="site-footer__navi-heading">メディア情報</li>
+          <li><a class="site-footer__navi-item" href="#">掲載情報</a></li>
+          <li><a class="site-footer__navi-item" href="#">取材のお申込み</a></li>
+        </ul>
+        <ul class="site-footer__navi-container">
+          <li class="site-footer__navi-heading">サポート</li>
+          <li><a class="site-footer__navi-item" href="#">よくあるご質問</a></li>
+          <li>
+            <a class="site-footer__navi-item" href="#">サービス稼働状況</a>
+          </li>
+          <li><a class="site-footer__navi-item" href="#">お問い合わせ</a></li>
+        </ul>
+        <ul class="site-footer__navi-container">
+          <li class="site-footer__navi-heading">サイトについて</li>
+          <li><a class="site-footer__navi-item" href="#">利用規約</a></li>
+          <li>
+            <a class="site-footer__navi-item" href="#">プライバシーポリシー</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- ↑ フッター ↑ -->
+    <script src="js/anime.min.js"></script>
+    <script src="js/toTop.js"></script>
+    <script src="js/toggleNavi.js"></script>
+  </body>
+</html>
